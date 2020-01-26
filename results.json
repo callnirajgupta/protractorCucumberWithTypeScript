@@ -1,0 +1,83 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Feature name",
+    "line": 1,
+    "id": "feature-name",
+    "tags": [],
+    "uri": "feature\\test.feature",
+    "elements": [
+      {
+        "id": "feature-name;test",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "cucumberStep\\testStepDef.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "enter the url",
+            "match": {
+              "location": "cucumberStep\\testStepDef.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enter username and password",
+            "match": {
+              "location": "cucumberStep\\testStepDef.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user is login successfully",
+            "match": {
+              "location": "cucumberStep\\testStepDef.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
