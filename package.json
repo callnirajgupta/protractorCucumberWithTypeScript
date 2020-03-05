@@ -10,19 +10,19 @@
     "test": "protractor conf.js",
     "debug": "node --inspect-brk ./node_modules/.bin/protractor conf.js"
   },
-  "dependencies": {
-    "@types/jasmine": "2.5.41",
-    "@types/jasminewd2": "^2.0.0",
-    "jasmine": "^2.4.1",
-    "typescript": "~2.0.0",
-    "protractor": "^4.0.11"
-  },
   "devDependencies": {
-    "@types/jasminewd2": "^2.0.0",
+    "@types/node": "^13.7.7",
     "cucumber": "^6.0.5",
     "cucumber-html-reporter": "^5.1.0",
+    "protractor": "^5.4.3",
     "protractor-cucumber-framework": "^6.2.0",
     "ts-node": "^3.0.2",
-    "webdriver-manager": "^12.1.7"
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "webdriver-manager": "12.1.2"
+  },
+  "dependencies": {
+    "require": "^2.4.20"
   }
 }

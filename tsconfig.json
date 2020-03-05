@@ -6,7 +6,9 @@
     "inlineSourceMap": true,
     "declaration": false,
     "noImplicitAny": false,
-    "outDir": "tmp"
+    "outDir": "tmp",
+    "types":[]
+
   },
   "exclude": [
     "node_modules",
